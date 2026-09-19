@@ -1,6 +1,7 @@
-import 'package:design_patterns_clean_architecture/builder/builder_client.dart';
+import 'package:design_patterns_clean_architecture/factory/factory_client.dart';
 
 void main() {
-  final client = UserClient();
-  client.buildUser();
+
+  final shapeClient = ShapeClient();
+  shapeClient.showShapes();
 }
