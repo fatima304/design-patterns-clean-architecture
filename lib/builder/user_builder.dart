@@ -1,12 +1,13 @@
 import 'package:design_patterns_clean_architecture/builder/user.dart';
 
+// UserBuilder class - The Builder pattern implementation
+// Allows flexible object creation with fluent interface
+// First and last name are required; age and phone are optional
 class UserBuilder {
   String? firstName;
   String? lastName;
   int? age;
   String? phone;
-
-  UserBuilder();
 
   UserBuilder setFirstName(String firstName) {
     this.firstName = firstName;

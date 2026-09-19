@@ -1,3 +1,5 @@
+// User class - The product class in the Builder pattern
+// Represents a user with required and optional attributes
 class User {
   final String firstName;
   final String lastName;
