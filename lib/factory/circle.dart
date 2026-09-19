@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:design_patterns_clean_architecture/factory/shape.dart';
 
 // Circle - Concrete implementation of Shape

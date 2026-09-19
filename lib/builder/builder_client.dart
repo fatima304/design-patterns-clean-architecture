@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:design_patterns_clean_architecture/builder/user_builder.dart';
 
 // UserClient - Demonstrates the Builder pattern usage
@@ -13,7 +15,6 @@ class UserClient {
         .setAge(25)
         .build();
 
-    // ignore: avoid_print
     print(user);
   }
 }
