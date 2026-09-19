@@ -1,9 +1,13 @@
+// Database class - Singleton pattern implementation
+// Ensures only one instance is ever created
 class Database {
-  // The single instance shared by the whole application.
+  // Private static instance variable - the single instance shared by the whole application
   static Database? _instance;
 
+  // Private constructor - prevents external instantiation
   Database._();
 
+  // Static factory method - returns existing instance or creates new one
   static Database createDatabase() {
     _instance ??= Database._();
 
