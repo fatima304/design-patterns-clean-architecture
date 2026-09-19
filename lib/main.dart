@@ -1,8 +1,6 @@
-import 'package:design_patterns_clean_architecture/singleton/singleton_client.dart';
+import 'package:design_patterns_clean_architecture/solid/solid_client.dart';
 
 void main() {
-
-   final client = SingletonClient();
-
-  client.testDatabase();
+  final solidClient = SolidClient();
+  solidClient.makePayments();
 }
