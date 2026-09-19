@@ -199,6 +199,7 @@ Run `dart run lib/console_demos.dart` to capture console output screenshots:
   --- Phase 1: Builder Pattern ---
   User(firstName: Fatma, lastName: Atef, age: 25, phone: null)
   ```
+  - Screenshot: `screenshots/builder_pattern.png`
 
 - **Factory Pattern**: Each shape's reveal message
   ```
@@ -207,19 +208,17 @@ Run `dart run lib/console_demos.dart` to capture console output screenshots:
   You chose to print rectangle
   You chose to print square
   ```
+  - Screenshot: `screenshots/factory_pattern.png`
 
 - **Singleton Pattern**: Database instances equality check
   ```
   --- Phase 3: Singleton Pattern ---
   true
   ```
+  - Screenshot: `screenshots/singleton_pattern.png`
 
-- **SOLID Principles**: Payment system output
-  ```
-  --- Phase 4: SOLID Principles ---
-  Payment made with cash
-  Payment made with credit card
-  ```
+- **SOLID Principles**: Payment system code structure
+  - Screenshot: `screenshots/solid_principles.png`
 
 ### Flutter Application UI
 Run `flutter run` to capture the Clean Architecture Flutter app screenshot:
@@ -230,6 +229,7 @@ Run `flutter run` to capture the Clean Architecture Flutter app screenshot:
   - User cards with avatars, names, and emails
   - Error state with retry functionality
   - Empty state handling
+  - Screenshot: `screenshots/clean_architecture_ui.png`
 
 ## Code Quality
 

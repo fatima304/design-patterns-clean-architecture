@@ -29,7 +29,7 @@ void main() {
   print('');
 
   // Phase 4: SOLID Principles
-  print('--- Phase 4: SOLID Principles ---');
+  // print('--- Phase 4: SOLID Principles ---');
   final solidClient = SolidClient();
   solidClient.makePayments();
   print('');
